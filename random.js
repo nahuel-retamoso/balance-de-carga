@@ -21,3 +21,5 @@ function countNumbers(arr) {
     });
     return obj;
 }
+
+module.exports = { randomNumbers };

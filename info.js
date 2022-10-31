@@ -6,6 +6,7 @@
     "path": process.execPath,
     "rss": process.memoryUsage().rss,
     "dir_name": process.cwd(),
+    "processors": os.cpus().length,
 }]
 
 export default info;
